@@ -24,7 +24,15 @@ Once you have successfully installed all the necessary dependencies, proceed to 
 
 ### Instructions
 
+1. The key element of this simulation is the *scene* used by this notebook. Start by either creating from scratch or using the example scenes provided by sionna here in [SIONNA RT Documentation](https://nvlabs.github.io/sionna/api/rt.html).
 
+2. Export the scene using Mitsuba Renderer as a .xml file.
+
+3. Replace the file_path for scene.load().
+
+4. Run each cell to visualize the outcome.
+
+5. Adjust parameters like num_samples, max_depth, transmitter(position=), and receiver(position=) to tailor the simulation results according to the specifics of your scene. Fine-tune these parameters to achieve outcomes that align with the characteristics of your particular environment.
 
 ## FAQ
 
